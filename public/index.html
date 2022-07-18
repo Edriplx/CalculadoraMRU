@@ -10,34 +10,123 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Fisica para todos </title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<div class="min-h-full">
+  <nav class="bg-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+          <div class="flex-shrink-0 max-w-h">
+              <img class="h-20 w-20" src="img/fpt.png" alt="Workflow">
+            </div>
+          <div class="ml-3 relative">
+              <div>
+                <button type="button" class="max-w-xs bg-gray-800 rounded-full flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                  <img class="h-20 w-20 rounded-full" src="img/f1.jpg" alt="">
+                </button>
+              </div>
+      </div>
+  </div>
+</div>
+  <div
+      class="w-full h-full bg-no-repeat bg-cover"
+      style="background-image: url('https://thumbs.dreamstime.com/z/fondo-de-la-ciencia-con-el-modelo-incons%C3%BAtil-de-la-f%C3%ADsica-74934447.jpg')">
+  </div>
+  <div class="mt-6 bg-gray-50">
+    <div class=" px-10 py-6 mx-auto">
+        
+        <!--author-->
+        <div class="max-w-6xl px-10 py-6 mx-auto bg-gray-50">
+            <img class="object-cover shadow-sm h-full mx-auto" src="img/movimiento.jfif">
+        </a>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+            <!--post heading-->
+            <a class="sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl font-bold text-purple-500 ">
+                Movimiento Rectilineo Uniforme</a>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+                <!--post views-->
+                <div class="flex justify-start items-center mt-2">
+                    <p class="text-sm text-gray-400 font-bold ml-5">En resumen</p>
+                </div>
+<!--end post header-->
+    <!--post content-->
+    <div class="max-w-4xl px-10  mx-auto text-2xl text-gray-700 mt-4 rounded bg-gray-100">
+      <!--content body-->
+      <div>
+        <p class="mt-2 p-8">El movimiento rectilíneo uniforme (m.r.u.), es aquel con velocidad constante 
+            y cuya trayectoria es una línea recta. Un ejemplo claro son las puertas correderas de un ascensor, 
+            generalmente se abren y cierran en línea recta y siempre a la misma velocidad.</p>
+</div>
+
+<div>
+    <p class="mt-2 p-8">El movimiento rectilíneo uniforme (M.R.U.) describe el desplazamiento de un objeto 
+        en una sola dirección con una velocidad y tiempo constante en una determinada distancia. En física, 
+        el movimiento rectilíneo uniforme puede ser observado dentro de un plano, en un eje de coordenadas, 
+        donde el movimiento es en línea recta desplazándose hacia una dirección. Es uniforme porque las variables 
+        de velocidad y tiempo en la recta es constante.</p>
+    </div>
+    </div>
+</div>
+<h2 class="text-2xl mt-4 text-gray-500 font-bold text-center">Mas información</h2>
+<div class="max-w-7xl mx-auto px-5 mb-3">
+<div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+  <div class="grid grid-cols-12 col-span-12 gap-7">
+    <div class="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
+        <a href="https://matemovil.com/wp-content/uploads/2020/01/movimiento-rectil%C3%ADneo-uniforme-f%C3%B3rmulas-01.jpg" class="block transition duration-200 ease-out transform hover:scale-110">
+            <img class="object-cover w-full shadow-sm h-full" src="img/fmru.png">
+        </a>
+        <div class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
+            <div class="bg-indigo-400 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+                <span>Formulas</span>
+            </div>
+            <h2 class="text-base text-gray-500 font-bold sm:text-lg md:text-xl"><a href="#_">Las formulas son importantes en la resolucion de problemas ya que gracias a ellas podemos obtener resultados mas concretos.</a></h2>
+            <!-- <p class="mt-2 text-sm text-gray-500">Learn how to authenticate users to your application using facebook.</p> -->
+        </div>
+    </div>
+
+    <div class="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
+        <a href="https://www.problemasyecuaciones.com/MRU/primera-parte/problemas-resueltos-movimiento-rectilineo-uniforme-MRU.html" class="block transition duration-200 ease-out transform hover:scale-110">
+            <img class="object-cover w-full shadow-sm h-full" src="img/emru.jpg">
+        </a>
+        <div class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
+            <div class="bg-red-400 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+                <span>Ejemplos</span>
+            </div>
+            <h2 class="text-base text-gray-500 font-bold sm:text-lg md:text-xl"><a href="#_">La mejor forma de aprender es practicar los conocimientos adquiridos previamente.</a></h2>
+            <!-- <p class="mt-2 text-sm text-gray-500">Learn how to authenticate users to your web application by sending secure links to their email box.</p> -->
+        </div>
+    </div>
+
+    <div class="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
+        <a href="https://youtu.be/dTjV_skYekE" class="block transition duration-200 ease-out transform hover:scale-110">
+            <img class="object-cover w-full shadow-sm h-full" src="img/vmru.jpg">
+        </a>
+        <div class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
+            <div class="bg-purple-500 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+                <span>Videos</span>
+            </div>
+            <h2 class="text-base text-gray-500 font-bold sm:text-lg md:text-xl"><a href="#_">Video explicativo para entender de mejor manera el M.R.U aplicado a varios ejercicios.</a></h2>
+            <!-- <p class="mt-2 text-sm text-gray-500">Learn how to authenticate users to your application using flask and mysql db.</p> -->
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+
+<div class="mt-6 bg-gray-50">
+    <h2 class="text-2xl mt-4 lg:text-3xl xl:text-4xl text-purple-500 font-bold text-center">Calculadora de Velocidad</h2>
+    <div class=" px-10 py-6 mx-auto">
+    <div class="max-w-4xl px-10  mx-auto text-2xl text-gray-700 mt-4 rounded bg-gray-100">
+      <div id="root"></div>
+            </div>
+        </div>
+        
+        
+<div class="max-w-7xl mx-auto px-5 mb-3">
+<div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">    
   </body>
 </html>
