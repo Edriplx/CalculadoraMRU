@@ -1,7 +1,3 @@
-//instalar el boostrap y el delete row para el correcto uso del programa
-//npm install react-bootstrap bootstrap
-//npm install react-delete-row
-//npm install react-icons
 import React, { useState } from 'react';
 import ReactDeleteRow from 'react-delete-row';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
